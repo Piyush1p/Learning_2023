@@ -27,6 +27,7 @@ int find_largest_digit(int number) {
 
 int main() {
   int n;
+  printf("Enter number of entries you want to check\n");
   scanf("%d", &n);
 
   int numbers[n];
